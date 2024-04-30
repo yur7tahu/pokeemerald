@@ -78,6 +78,15 @@ static const u8 sCacophonyDescription[] = _("Avoids sound-based moves.");
 static const u8 sAirLockDescription[] = _("Negates weather effects.");
 static const u8 sSnowWarningDescription[] = _("Summons hail in battle.");
 static const u8 sTechnicianDescription[] = _("Powers up weaker moves.");
+static const u8 sImposterDescription[] = _("Transforms itself.");
+static const u8 sSnowCloakDescription[] = _("Ups evasion in a hailstorm.");
+static const u8 sIceBodyDescription[] = _("Slight HP recovery in hail.");
+static const u8 sSlushRushDescription[] = _("Ups Speed in a hailstorm.");
+static const u8 sMagicGuardDescription[] = _("Only takes damage from attacks.");
+static const u8 sGluttonyDescription[] = _("Consumes berries early.");
+static const u8 sTintedLensDescription[] = _("Powers up resisted moves.");
+static const u8 sDrySkinDescription[] = _("Reduces HP if it is hot. Water restores HP.");
+static const u8 sSheerForceDescription[] = _("Removes effects to boost damage.");
 
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
 {
@@ -161,6 +170,15 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_AIR_LOCK] = _("AIR LOCK"),
     [ABILITY_SNOW_WARNING] = _("SNOW WARNING"),
     [ABILITY_TECHNICIAN] = _("TECHNICIAN"),
+    [ABILITY_IMPOSTER] = _("Imposter"),
+    [ABILITY_SNOW_CLOAK] = _("SNOW CLOAK"),
+    [ABILITY_ICE_BODY] = _("ICE BODY"),
+    [ABILITY_SLUSH_RUSH] = _("SLUSH RUSH"),
+    [ABILITY_MAGIC_GUARD] = _("MAGIC GUARD"),
+    [ABILITY_GLUTTONY] = _("GLUTTONY"),
+    [ABILITY_TINTED_LENS] = _("TINTED LENS"),
+    [ABILITY_DRY_SKIN] = _("DRY SKIN"),
+    [ABILITY_SHEER_FORCE] = _("SHEER FORCE"),
 };
 
 const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
@@ -245,4 +263,13 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_AIR_LOCK] = sAirLockDescription,
     [ABILITY_SNOW_WARNING] = sSnowWarningDescription,
     [ABILITY_TECHNICIAN] = sTechnicianDescription,
+    [ABILITY_IMPOSTER] = sImposterDescription,
+    [ABILITY_SNOW_CLOAK] = sSnowCloakDescription,
+    [ABILITY_ICE_BODY] = sIceBodyDescription,
+    [ABILITY_SLUSH_RUSH] = sSlushRushDescription,
+    [ABILITY_MAGIC_GUARD] = sMagicGuardDescription,
+    [ABILITY_GLUTTONY] = sGluttonyDescription,
+    [ABILITY_TINTED_LENS] = sTintedLensDescription,
+    [ABILITY_DRY_SKIN] = sDrySkinDescription,
+    [ABILITY_SHEER_FORCE] = sSheerForceDescription,
 };
